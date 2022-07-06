@@ -24,6 +24,15 @@ muestre otra ventana (Activity) mostrando un TextView con el nombre del programa
 aplicación y un botón para cerrar la ventana o actividad y que vuelva al primer Activity.
  */
 
+/*
+Problema propuesto para resolver
+Realizar un programa que contenga dos Activity. En el primero que solicite el ingreso de una
+clave (control Password) Si ingresa la clave "abc123" activar el segundo Activity mostrando en
+un TextView un mensaje de bienvenida (mostrar en Toast si se ingresa la clave incorrecta en el
+primer Activity).
+ */
+
+
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
